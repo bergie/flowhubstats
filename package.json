@@ -1,0 +1,35 @@
+{
+  "name": "flowhubstats",
+  "description": "The best project ever.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Henri Bergius",
+    "email": "henri.bergius@iki.fi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bergie/flowhubstats.git"
+  },
+  "scripts": {
+    "test": "eslint components/*.js"
+  },
+  "dependencies": {
+    "noflo": "^1.1.0",
+    "noflo-dom": "^0.3.0",
+    "noflo-objects": "^0.5.0",
+    "noflo-strings": "^0.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "fbp-spec": "^0.5.0",
+    "mocha": "^5.0.0",
+    "noflo-nodejs": "^0.9.0"
+  },
+  "keywords": [
+    "noflo",
+    "ecosystem:noflo"
+  ]
+}
